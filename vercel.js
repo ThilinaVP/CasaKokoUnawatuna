@@ -1,8 +1,8 @@
-{
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/"
-      }
-    ]
-}
+module.exports = {
+  rewrites: [
+    {
+      source: "/(.*)",
+      destination: "/"
+    }
+  ]
+};
